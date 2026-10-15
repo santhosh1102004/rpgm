@@ -1,1 +1,6 @@
-
+expenses<-c(40,25,20,15,10)
+categories<-c("Food","Travel","Books","Savings","tea")
+pie(expenses,
+    labels=categories,
+    main="Monthly Expenses",
+    col=rainbow(5))
